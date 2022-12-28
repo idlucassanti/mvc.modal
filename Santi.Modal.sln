@@ -3,12 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D4F2B2F-318F-4BA0-921D-1D987578A418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santi.Modal.Web", "src\Santi.Modal.Web\Santi.Modal.Web.csproj", "{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AD214E2-14CE-46CD-A25E-3CD0A6BD37CF} = {8D4F2B2F-318F-4BA0-921D-1D987578A418}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6EBD15-BD3D-4C08-BF1C-C15F994976D0}
 	EndGlobalSection
 EndGlobal
